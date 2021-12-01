@@ -1,13 +1,11 @@
 //Exercicio 1
+let n = 5;
+for( x=0; x<n; x+=1){
+    let asterisco = "";
 
-let numero = 5;
-let linha= "*";
-let coluna = " ";
+    for (i = 0; i<n; i+=1){
+        asterisco+= "*";
+    }
 
-for (let l = 1; l <= numero; l +=1 ){
-     coluna += linha;   
-  
-}
-for (let c = 1; c <= numero; c +=1 ){
-    console.log (coluna);
+console.log(asterisco);
 }
