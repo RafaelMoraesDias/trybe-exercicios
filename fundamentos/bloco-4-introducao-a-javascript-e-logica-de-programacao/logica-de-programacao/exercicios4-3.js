@@ -1,11 +1,6 @@
-//Exercicio 1
-let n = 5;
-for( x=0; x<n; x+=1){
-    let asterisco = "";
+let name = 'Marta';
+let lastName = 'Silva';
+let age = 34;
+let medals = { golden: 2, silver: 3 };
 
-    for (i = 0; i<n; i+=1){
-        asterisco+= "*";
-    }
-
-console.log(asterisco);
-}
+console.log( "A Jogadora" + " " + name +" " + "da "+ lastName +" "+ "tem "+ age+ " "+ "anos");
