@@ -1,15 +1,15 @@
 function indiceMaior (array) {
- let maiorValor = 0;
+ let menorValor = 0;
 
  for (index in array){
-        if (maiorValor < array[index]){
-        maiorValor = index;
+        if (menorValor > array[index]){
+        menorValor = index;
         }
         
  }
- return maiorValor;
+ return menorValor;
 
 
 }
 
- console.log (indiceMaior ([2, 3, 6, 7, 10, 1]));
+ console.log (indiceMaior ([2, 4, 6, 7, 10, 0, -3]));
