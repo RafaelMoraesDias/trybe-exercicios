@@ -1,18 +1,15 @@
-function indiceMaisRepete (array) {
- let loop = 0;
-let repete = 0
- 
+function somaNumeros (numeros){
 
-for (index in array){
-        loop+= array[index];
-        if (array[index] === loop){
-        repete += array[index];
-        }
-        
- }
- return repete;
+var soma =0;
+
+for (index = 0; index <= numeros; index +=1){
+    soma=soma + index;
+}
+
+
+return soma;
 
 
 }
 
- console.log (indiceMaisRepete ([2, 3, 2, 5, 8, 2, 3]));
+console.log(somaNumeros(5));
