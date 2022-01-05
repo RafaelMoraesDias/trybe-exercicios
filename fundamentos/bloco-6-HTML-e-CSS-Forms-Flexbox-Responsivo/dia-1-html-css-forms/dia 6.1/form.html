@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class = "cabecalho">
+        <h1>Cadastre aqui seu Currículo</h1>
+    </header>
+
+    <main>
+        <form>
+            <div>
+            <fieldset class = "form">
+                <label for="name">DIGITE SEU NOME</label>
+                <input type="text" maxlength="40" id = "name"required></input>
+                <br>
+                <label for="email">DIGITE SEU EMAIL</label>
+                <input type="email" maxlength="50" id = "email" required></input>
+                <br>
+                <label for="cpf">DIGITE SEU CPF</label>
+                <input type="text" maxlength="11" id = "cpf" required></input>
+                <br>
+                <label for="endereco">DIGITE SEU ENDEREÇO</label>
+                <input type="text" maxlength="200" id = "endereco" required></input>
+                <br>
+                <label for="city">DIGITE SUA CIDADE</label>
+                <input type="text" maxlength="28" id = "city" required></input>
+                <br>
+                <label for="state">SELECIONE SEU ESTADO</label>
+                <select name="state" id="state" required>
+                    
+                </select>
+                <br>
+                <label for="casa">
+                  <input type="radio" id= "casa" name="casa">CASA              
+                  <input type="radio" id= "casa" name="casa">APARTAMENTO
+                  </label>
+            </fieldset>
+            </div>
+
+        <div class = "descricao">  
+            <fieldset>
+               
+                <label for="txt">
+                    <textarea name="txt" id="txt" cols="30" rows="10" maxlength="1000" required>RESUMA SEU CURRÍCULO</textarea>
+                </label>
+                <br>
+                <label for="cargo">CARGO
+                    <input type="text" maxlength="40" required>
+                </label>
+                <br>
+                <label for="">DESCREVA SEU CARGO
+                    <input type="text"  id = "cargo" maxlength="500" required>
+                </label>
+                <br>
+                <label for="">DATA DE INICIO
+                    <input type="date" min = "2000-01-01">
+                </label>
+                
+
+            </fieldset>
+        </div> 
+
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
