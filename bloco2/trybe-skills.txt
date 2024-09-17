@@ -1,5 +1,7 @@
 -Unix
 -Bash
 -Git
+CSS
 soft skills
 linkedin
+
